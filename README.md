@@ -1,4 +1,4 @@
-# AI Finance Controller — Full Stack (Hackathon Build)
+# AI Finance Controller — Full Stack
 
 A multi-agent settlement reconciliation & fraud-control pipeline with a
 **real trained IsolationForest anomaly model**, wired end-to-end to a
@@ -86,9 +86,6 @@ streamlit run dashboard/app.py                   # optional Streamlit demo view
   as duplicates. It now requires ≥2 identifying columns before trusting
   that path, so it correctly relies on the scenario-based check
   (5 genuine duplicates, matching ground truth).
-- **Removed all Vercel branding**: `@vercel/analytics` dependency and
-  usage, the `generator: 'v0.app'` metadata tag, and unused
-  placeholder/logo image assets.
 - **Verified the ML model**: ran the full pipeline and both evaluation
   scripts. IsolationForest/RandomForest on the engineered ratio
   features score 1.00 precision/recall/F1/ROC-AUC on this dataset; a
