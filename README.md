@@ -96,11 +96,8 @@ streamlit run dashboard/app.py                   # optional Streamlit demo view
   confirming the project's central finding that feature engineering,
   not model choice, is what makes detection work here.
 
-## Notes for judges / demo
+## Notes for demo
 
 - The dataset is synthetic (100 transactions) — see the original
   `AI_Finance_Controller/readme.md` for full methodology, architecture
   rationale, and known limitations.
-- No `OPENAI_API_KEY` is required to run this end-to-end; the LLM
-  investigation agent gracefully no-ops and the rest of the pipeline
-  (including the real ML anomaly model) still runs and is shown live.
